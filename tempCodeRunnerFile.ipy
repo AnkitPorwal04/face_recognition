@@ -1,0 +1,4 @@
+import cv2
+
+img = cv2.imread('dog.jpg')
+cv2.imshow('Dog Image', img)

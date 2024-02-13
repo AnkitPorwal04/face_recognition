@@ -1,0 +1,10 @@
+import cv2
+
+img = cv2.imread('dog.jpg')
+gray = cv2.imread('dog.jpg', cv2.IMREAD_GRAYSCALE)
+
+cv2.imshow('Dog Image', img) # no need to conver bgr to rgb
+cv2.imshow('Gray DOG', gray)
+
+cv2.waitKey(0) # wait for 1000 ms and the..
+cv2.destroyAllWindows # this will destroy that image window
